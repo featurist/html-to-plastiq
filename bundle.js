@@ -39,7 +39,7 @@ function render(model) {
   );
 }
 
-var model = { html: '<p>Down with <b>JSX!</b></p>' };
+var model = { html: "<ul id=\"fruit\">\n  <li id=\"apples\" class=\"green red\">Apples</li>\n  <li title=\"nice\" class=\"orange\" tangy=\"yeah\">Oranges</li>\n</ul>" };
 
 plastiq.append(document.body, render, model);
 
