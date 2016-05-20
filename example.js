@@ -38,6 +38,6 @@ function render(model) {
   );
 }
 
-var model = { html: '' };
+var model = { html: '<p>Down with <b>JSX!</b></p>' };
 
 plastiq.append(document.body, render, model);
