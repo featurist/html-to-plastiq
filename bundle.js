@@ -39,7 +39,7 @@ function render(model) {
   );
 }
 
-var model = { html: "<ul id=\"fruit\">\n  <li id=\"apples\" class=\"green red\">Apples</li>\n  <li title=\"nice\" class=\"orange\" tangy=\"yeah\">Oranges</li>\n</ul>" };
+var model = { html: "<html>\n  <body>\n    <ul id=\"fruit\">\n      <li id=\"apples\" class=\"green red\">Apples</li>\n      <li title=\"nice\" class=\"orange\" tangy=\"yeah\">Oranges</li>\n    </ul>\n  </body>\n</html>" };
 
 plastiq.append(document.body, render, model);
 
