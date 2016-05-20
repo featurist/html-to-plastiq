@@ -24,7 +24,7 @@ function render(model) {
               return htmlToPlastiq(model.html)
             } catch (e) {
               console.log(e);
-              return '';
+              return 'Invalid HTML (n.b. can only be one root element)';
             }
           },
           set: function() {}
